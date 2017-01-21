@@ -1,4 +1,4 @@
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,15 +17,5 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),cherry)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := QNfc
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/app/QNfc/QNfc.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := .apk
-include $(BUILD_PREBUILT)
 
 endif
