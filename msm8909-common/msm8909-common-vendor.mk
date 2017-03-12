@@ -1,4 +1,5 @@
-# Copyright (C) 2017 The CyanogenMod Project
+# Copyright (C) 2015-2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/msm8909-common/proprietary/bin/oeminfo_server:system/bin/oeminfo_server \
     vendor/huawei/msm8909-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/huawei/msm8909-common/proprietary/bin/radish:system/bin/radish \
-    vendor/huawei/msm8909-common/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/huawei/msm8909-common/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
     vendor/huawei/msm8909-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/huawei/msm8909-common/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
@@ -254,6 +254,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/msm8909-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/huawei/msm8909-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/huawei/msm8909-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/huawei/msm8909-common/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
+    vendor/huawei/msm8909-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/huawei/msm8909-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/huawei/msm8909-common/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/huawei/msm8909-common/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
@@ -285,6 +287,4 @@ PRODUCT_PACKAGES += \
     libloc_ds_api \
     libtime_genoff \
     TimeService
-
-$(call inherit-product, vendor/qcom/binaries/msm8916-32/graphics/graphics-vendor.mk)
 endif
