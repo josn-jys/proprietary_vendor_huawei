@@ -57,7 +57,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/msm8909-common/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/huawei/msm8909-common/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
     vendor/huawei/msm8909-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/huawei/msm8909-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/huawei/msm8909-common/proprietary/lib/liboeminfo.so:system/lib/liboeminfo.so \
     vendor/huawei/msm8909-common/proprietary/lib/libqmi_nv_api.so:system/lib/libqmi_nv_api.so \
     vendor/huawei/msm8909-common/proprietary/vendor/etc/pdc_G620s_L01.txt:system/vendor/etc/pdc_G620s_L01.txt \
