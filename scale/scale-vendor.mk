@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/scale/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/huawei/scale/proprietary/lib/libqdMetaData.so:system/lib/libqdMetaData.so \
     vendor/huawei/scale/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/huawei/scale/proprietary/lib/sensors.msm8909.so:system/lib/hw/sensors.msm8909.so \
     vendor/huawei/scale/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/huawei/scale/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
     vendor/huawei/scale/proprietary/vendor/lib/libactuator_dw9714_13p1ba.so:system/vendor/lib/libactuator_dw9714_13p1ba.so \
