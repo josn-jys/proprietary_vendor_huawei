@@ -115,6 +115,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/msm8909-common/proprietary/vendor/lib/libactuator_s5k4e1_liteon_13p1_camcorder.so:system/vendor/lib/libactuator_s5k4e1_liteon_13p1_camcorder.so \
     vendor/huawei/msm8909-common/proprietary/vendor/lib/libactuator_s5k4e1_liteon_13p1_camera.so:system/vendor/lib/libactuator_s5k4e1_liteon_13p1_camera.so \
     vendor/huawei/msm8909-common/proprietary/vendor/lib/libcalmodule_akm.so:system/vendor/lib/libcalmodule_akm.so \
+    vendor/huawei/msm8909-common/proprietary/vendor/lib/libcalmodule_gyroscope.so:system/vendor/lib/libcalmodule_gyroscope.so \
     vendor/huawei/msm8909-common/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_common.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_common.so \
     vendor/huawei/msm8909-common/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_default_video.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_default_video.so \
     vendor/huawei/msm8909-common/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_hfr_120fps.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_hfr_120fps.so \
